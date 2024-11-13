@@ -1,0 +1,95 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.about {
+    background-color: #f472b6;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.max-w-7xl {
+    max-width: 1200px;
+    margin: auto;
+}
+.socials a img {
+    width: 30px;
+    margin: 5px;
+}
+.work-highlights img {
+    width: 50px;
+    margin: 10px;
+}
+.work-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.services-section {
+    text-align: center;
+    background-color: #2a2a4a;
+    padding: 2rem 1rem;
+    color: #ffffff;
+}
+
+.services-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 250px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.machine-learning {
+    background-color: #5e60ce;
+}
+
+.software-development {
+    background-color: #ffd166;
+}
+
+.mobile-app-dev {
+    background-color: #f25f5c;
+}
+
+.service-card h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.service-card p {
+    color: #f0f0f0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.experience-entry p {
+    color: #a0aec0;
+}
+
+.experience-entry h3 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.experience-entry .text-gray-300 {
+    color: #d1d5db;
+}
