@@ -1,11 +1,11 @@
-<header class="py-4">
-        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
-            <nav class="space-x-6">
-                <a href="#about" class="text-indigo-400 hover:text-black">About</a>
-                <a href="#services" class="text-indigo-400 hover:text-black">Services</a>
-                <a href="#experience" class="text-indigo-400 hover:text-black">Experience</a>
-                <a href="#works" class="text-indigo-400 hover:text-black">Works</a>
-                <a href="#contact" class="text-indigo-400 hover:text-black">Contact</a>
-            </nav>
-        </div>
-    </header>
+<header class="header">
+    <div class="header-container">
+        <nav class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#works" class="nav-link">Works</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </div>
+</header>

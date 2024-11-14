@@ -14,20 +14,7 @@ body {
     max-width: 1200px;
     margin: auto;
 }
-.socials a img {
-    width: 30px;
-    margin: 5px;
-}
-.work-highlights img {
-    width: 50px;
-    margin: 10px;
-}
-.work-highlights {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
+
 .services-section {
     text-align: center;
     background-color: #2a2a4a;
@@ -56,15 +43,15 @@ body {
     text-align: center;
 }
 
-.machine-learning {
+.one{
     background-color: #5e60ce;
 }
 
-.software-development {
+.two {
     background-color: #ffd166;
 }
 
-.mobile-app-dev {
+.three {
     background-color: #f25f5c;
 }
 
@@ -81,15 +68,130 @@ body {
     line-height: 1.5;
 }
 
-.experience-entry p {
-    color: #a0aec0;
+.header {
+    padding: 16px 0;
+    background-color: #ffffff;
 }
 
-.experience-entry h3 {
-    color: #ffffff;
-    font-weight: bold;
+.header-container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.experience-entry .text-gray-300 {
-    color: #d1d5db;
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-link {
+    color: #4f46e5; 
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.subtopic {
+    margin-top: 1rem; 
+    font-size: 1.875rem; 
+    font-weight: 700; 
+}
+
+.work-text {
+    margin-top: 0.5rem; 
+    font-size: 1.25rem;
+    font-weight: 700; 
+}
+
+.input-field {
+    background-color: #f9fafb; 
+    color: #374151; 
+    font-size: 1.125rem; 
+    border-radius: 0.5rem; 
+    padding: 0.75rem 1rem; 
+    width: 100%; 
+    outline: none; 
+}
+
+.book-image {
+    width: 12rem; 
+    height: 16rem; 
+    object-fit: cover; 
+    border-radius: 0.5rem; 
+}
+
+.book-slider {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.book-image {
+    width: 12rem; 
+    height: 16rem; 
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
